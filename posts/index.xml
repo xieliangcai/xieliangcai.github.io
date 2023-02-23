@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://github.com/xieliangcai/xieliangcai.github.io/posts/</link>
+    <link>https://xieliangcai.github.io/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Feb 2023 23:13:37 +0800</lastBuildDate><atom:link href="https://github.com/xieliangcai/xieliangcai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 23:13:37 +0800</lastBuildDate><atom:link href="https://xieliangcai.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第一份博客</title>
-      <link>https://github.com/xieliangcai/xieliangcai.github.io/posts/blog_name/</link>
+      <link>https://xieliangcai.github.io/posts/blog_name/</link>
       <pubDate>Thu, 23 Feb 2023 23:13:37 +0800</pubDate>
       
-      <guid>https://github.com/xieliangcai/xieliangcai.github.io/posts/blog_name/</guid>
+      <guid>https://xieliangcai.github.io/posts/blog_name/</guid>
       <description></description>
     </item>
     
