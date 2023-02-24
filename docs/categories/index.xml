@@ -3,5 +3,21 @@
         <title>Categories - Category - </title>
         <link>https://xieliangcai.github.io/categories/</link>
         <description>Categories - Category - </description>
-        <generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://xieliangcai.github.io/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xieliangcai.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>syntax</title>
+    <link>https://xieliangcai.github.io/categories/syntax/</link>
+    <pubDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://xieliangcai.github.io/categories/syntax/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>themes</title>
+    <link>https://xieliangcai.github.io/categories/themes/</link>
+    <pubDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://xieliangcai.github.io/categories/themes/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
