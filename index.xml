@@ -1,29 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>xie&#39;s pages</title>
-    <link>https://xieliangcai.github.io/</link>
-    <description>Recent content on xie&#39;s pages</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 24 Feb 2023 00:34:17 +0800</lastBuildDate><atom:link href="https://xieliangcai.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First Post</title>
-      <link>https://xieliangcai.github.io/posts/first-post/</link>
-      <pubDate>Fri, 24 Feb 2023 00:34:17 +0800</pubDate>
-      
-      <guid>https://xieliangcai.github.io/posts/first-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>第一份博客</title>
-      <link>https://xieliangcai.github.io/posts/blog_name/</link>
-      <pubDate>Thu, 23 Feb 2023 23:13:37 +0800</pubDate>
-      
-      <guid>https://xieliangcai.github.io/posts/blog_name/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://xieliangcai.github.io/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Fri, 24 Feb 2023 03:54:37 &#43;0800</lastBuildDate>
+            <atom:link href="https://xieliangcai.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>first</title>
+    <link>https://xieliangcai.github.io/posts/blog_name/</link>
+    <pubDate>Fri, 24 Feb 2023 03:54:37 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://xieliangcai.github.io/posts/blog_name/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
