@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>text - Tag - </title>
-        <link>https://xieliangcai.github.io/tags/text/</link>
-        <description>text - Tag - </description>
-        <generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Sat, 09 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xieliangcai.github.io/tags/text/" rel="self" type="application/rss+xml" /><item>
+        <title>text - 标签 - 谢先生健身房</title>
+        <link>https://www.ethanzhang.xyz/tags/text/</link>
+        <description>text - 标签 - 谢先生健身房</description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 09 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://www.ethanzhang.xyz/tags/text/" rel="self" type="application/rss+xml" /><item>
     <title>Placeholder Text</title>
-    <link>https://xieliangcai.github.io/posts/placeholder-text/</link>
+    <link>https://www.ethanzhang.xyz/posts/placeholder-text/</link>
     <pubDate>Sat, 09 Mar 2019 00:00:00 &#43;0000</pubDate>
     <author>Hugo Authors</author>
-    <guid>https://xieliangcai.github.io/posts/placeholder-text/</guid>
+    <guid>https://www.ethanzhang.xyz/posts/placeholder-text/</guid>
     <description><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>]]></description>
 </item>
 </channel>

@@ -2,7 +2,11 @@
 title: "Prometheus安装"
 date: 2023-02-25T07:57:09+08:00
 draft: true
-
+tags : [
+"监控",
+"prometheus",
+]
+---
 ## Prometheus安装
 
 ### 下载解压

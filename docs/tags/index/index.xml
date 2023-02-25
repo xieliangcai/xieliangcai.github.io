@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>index - Tag - </title>
-        <link>https://xieliangcai.github.io/tags/index/</link>
-        <description>index - Tag - </description>
-        <generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://xieliangcai.github.io/tags/index/" rel="self" type="application/rss+xml" /><item>
+        <title>index - 标签 - 谢先生健身房</title>
+        <link>https://www.ethanzhang.xyz/tags/index/</link>
+        <description>index - 标签 - 谢先生健身房</description>
+        <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.ethanzhang.xyz/tags/index/" rel="self" type="application/rss+xml" /><item>
     <title>Posts</title>
-    <link>https://xieliangcai.github.io/posts/</link>
-    <pubDate>Fri, 24 Feb 2023 03:54:37 &#43;0800</pubDate>
-    <author>Hugo Authors</author>
-    <guid>https://xieliangcai.github.io/posts/</guid>
+    <link>https://www.ethanzhang.xyz/posts/</link>
+    <pubDate>Fri, 24 Feb 2023 22:44:53 &#43;0800</pubDate>
+    <author>xieliangcai</author>
+    <guid>https://www.ethanzhang.xyz/posts/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
