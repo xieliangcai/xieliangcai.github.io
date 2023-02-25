@@ -1,7 +1,7 @@
 ---
 title: "Prometheus安装"
 date: 2023-02-25T07:57:09+08:00
-draft: true
+draft: false
 tags : [
 "监控",
 "prometheus",
