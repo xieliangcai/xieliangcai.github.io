@@ -1,13 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>所有文章 - 我的 Hugo FixIt 网站</title>
+    <title>所有文章 - 我的网站</title>
     <link>https://github.xieliangcai.io/posts/</link>
-    <description>所有文章 | 我的 Hugo FixIt 网站</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</lastBuildDate><atom:link href="https://github.xieliangcai.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <description>所有文章 | 我的网站</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1051504560@qq.com (xieliangcai)</managingEditor>
+      <webMaster>1051504560@qq.com (xieliangcai)</webMaster><lastBuildDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</lastBuildDate><atom:link href="https://github.xieliangcai.io/posts/" rel="self" type="application/rss+xml" /><item>
   <title>Promethus监控</title>
   <link>https://github.xieliangcai.io/promethus%E7%9B%91%E6%8E%A7/</link>
   <pubDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</pubDate>
-  <author>xxxx</author>
+  <author>xieliangcai</author>
   <guid>https://github.xieliangcai.io/promethus%E7%9B%91%E6%8E%A7/</guid>
   <description><![CDATA[]]></description>
 </item>
@@ -15,7 +16,7 @@
   <title>Prometheus安装</title>
   <link>https://github.xieliangcai.io/prometheus%E5%AE%89%E8%A3%85/</link>
   <pubDate>Sat, 25 Feb 2023 07:57:09 &#43;0800</pubDate>
-  <author>xxxx</author>
+  <author>xieliangcai</author>
   <guid>https://github.xieliangcai.io/prometheus%E5%AE%89%E8%A3%85/</guid>
   <description><![CDATA[Prometheus安装 下载解压 mkdir -p /opt/prometheus wget https://github.com/prometheus/prometheus/releases/download/v2.37.1/prometheus-2.37.1.linux-amd64.tar.gz tar xf prometheus-2.37.1.linux-amd64.tar.gz cp -far prometheus-2.37.1.linux-amd64/* /opt/prometheus/ 将服务挂使用systemd 托管 cat &lt;&lt;EOF &gt;/etc/systemd/system/prometheus.service [Unit] Description=&quot;prometheus&quot; Documentation=https://prometheus.io/ After=network.target [Service] Type=simple ExecStart=/opt/prometheus/prometheus --config.file=/opt/prometheus/prometheus.yml --storage.tsdb.path=/opt/prometheus/data --web.enable-lifecycle --enable-feature=remote-write-receiver --query.lookback-delta=2m --web.enable-admin-api Restart=on-failure SuccessExitStatus=0 LimitNOFILE=65536 StandardOutput=syslog StandardError=syslog SyslogIdentifier=prometheus [Install] WantedBy=multi-user.target EOF systemctl enable]]></description>
 </item>
@@ -23,7 +24,7 @@
   <title>Prometheus snmp采集生成 snmp.yaml文件</title>
   <link>https://github.xieliangcai.io/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</link>
   <pubDate>Fri, 24 Feb 2023 22:44:53 &#43;0800</pubDate>
-  <author>xxxx</author>
+  <author>xieliangcai</author>
   <guid>https://github.xieliangcai.io/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</guid>
   <description><![CDATA[背景 Prometheus 通过snmp-exporter采集网络设备， 但snmp-exporter是依赖snmp.yaml 件取采集对应应的oid，本此记录snm]]></description>
 </item>

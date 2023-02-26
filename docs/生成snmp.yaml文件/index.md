@@ -26,6 +26,6 @@
 
 ---
 
-> 作者: xxxx  
+> 作者: xieliangcai  
 > URL: https://github.xieliangcai.io/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/  
 

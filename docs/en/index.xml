@@ -3,7 +3,8 @@
     <title>My Hugo FixIt Site</title>
     <link>https://github.xieliangcai.io/en/</link>
     <description>这是我的网站</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1051504560@qq.com (xieliangcai)</managingEditor>
+      <webMaster>1051504560@qq.com (xieliangcai)</webMaster>
       <atom:link href="https://github.xieliangcai.io/en/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -79,6 +79,6 @@ cp -far prometheus-2.37.1.linux-amd64/*  /opt/prometheus/
 
 ---
 
-> 作者: xxxx  
+> 作者: xieliangcai  
 > URL: https://github.xieliangcai.io/prometheus%E5%AE%89%E8%A3%85/  
 
