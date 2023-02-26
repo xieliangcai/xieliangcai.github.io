@@ -6,6 +6,9 @@ tags : [
 "监控",
 "prometheus",
 ]
+categories : [ 
+"prometheus",
+]
 ---
 ## Prometheus安装
 
