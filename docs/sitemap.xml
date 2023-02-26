@@ -1,28 +1,21 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>https://www.ethanzhang.xyz/</loc><lastmod>2023-02-25T07:57:09&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/</loc><lastmod>2023-02-25T07:57:09&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/prometheus/</loc><lastmod>2023-02-25T07:57:09&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/prometheus%E5%AE%89%E8%A3%85/</loc><lastmod>2023-02-25T07:57:09&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/</loc><lastmod>2023-02-25T07:57:09&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/%E7%9B%91%E6%8E%A7/</loc><lastmod>2023-02-25T07:57:09&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</loc><lastmod>2023-02-24T22:44:53&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/snmp/</loc><lastmod>2023-02-24T22:44:53&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</loc><lastmod>2023-02-24T22:44:53&#43;08:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/archives/</loc><lastmod>2019-05-28T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/categories/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/css/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/html/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/markdown/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/markdown-syntax/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/categories/syntax/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/categories/themes/</loc><lastmod>2019-03-11T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/placeholder-text/</loc><lastmod>2019-03-09T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/text/</loc><lastmod>2019-03-09T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/math-typesetting/</loc><lastmod>2019-03-08T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/emoji/</loc><lastmod>2019-03-05T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/posts/emoji-support/</loc><lastmod>2019-03-05T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/about/</loc><lastmod>2019-02-28T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://www.ethanzhang.xyz/tags/index/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://github.xieliangcai.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://github.xieliangcai.io/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2023-02-25T10:04:59+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://github.xieliangcai.io/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

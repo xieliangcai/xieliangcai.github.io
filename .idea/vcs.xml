@@ -2,6 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fuse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/FixIt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/blackburn" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/hugo-clarity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hugo-search-fuse-js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hugo-whisper-theme" vcs="Git" />
   </component>
 </project>

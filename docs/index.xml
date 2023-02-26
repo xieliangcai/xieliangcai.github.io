@@ -1,58 +1,33 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>谢先生健身房</title>
-        <link>https://www.ethanzhang.xyz/</link>
-        <description>谢先生的个人博客</description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 25 Feb 2023 07:57:09 &#43;0800</lastBuildDate>
-            <atom:link href="https://www.ethanzhang.xyz/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Prometheus安装</title>
-    <link>https://www.ethanzhang.xyz/posts/prometheus%E5%AE%89%E8%A3%85/</link>
-    <pubDate>Sat, 25 Feb 2023 07:57:09 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.ethanzhang.xyz/posts/prometheus%E5%AE%89%E8%A3%85/</guid>
-    <description><![CDATA[Prometheus安装 下载解压 mkdir -p /opt/prometheus wget https://github.com/prometheus/prometheus/releases/download/v2.37.1/prometheus-2.37.1.linux-amd64.tar.gz tar xf prometheus-2.37.1.linux-amd64.tar.gz cp -far prometheus-2.37.1.linux-amd64/* /opt/prometheus/
-将服务挂使用systemd 托管 cat &lt;&lt;EOF &gt;/etc/systemd/system/prometheus.service [Unit] Description=&quot;prometheus&quot; Documentation=https://prometheus.io/ After=network.target [Service] Type=simple ExecStart=/opt/prometheus/prometheus --config.file=/opt/prometheus/prometheus.yml --storage.tsdb.path=/opt/prometheus/data --web.enable-lifecycle --enable-feature=remote-write-receiver --query.lookback-delta=2m --web.enable-admin-api Restart=on-failure SuccessExitStatus=0 LimitNOFILE=65536 StandardOutput=syslog StandardError=syslog SyslogIdentifier=prometheus [Install] WantedBy=multi-user.target EOF systemctl enable prometheus systemctl start prometheus systemctl status prometheus 启动参数 --config.file=/opt/prometheus/prometheus.yml 指定 Prometheus 的配置文件路径 --storage.tsdb.path=/opt/prometheus/data 指定 Prometheus 时序数据的硬盘存储路径 --web.enable-lifecycle 启用生命周期管理相关的 API，比如调用 /-/reload 接口就需要启用该项 --enable-feature=remote-write-receiver 启用 remote write 接收数据的接口，启用该项之后，categraf、grafana-agent 等 agent 就可以通过 /api/v1/write 接口推送数据给 Prometheus --query.]]></description>
+  <channel>
+    <title>我的 Hugo FixIt 网站</title>
+    <link>https://github.xieliangcai.io/</link>
+    <description>这是我的网站</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</lastBuildDate>
+      <atom:link href="https://github.xieliangcai.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+  <title>Promethus监控</title>
+  <link>https://github.xieliangcai.io/promethus%E7%9B%91%E6%8E%A7/</link>
+  <pubDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</pubDate>
+  <author>xxxx</author>
+  <guid>https://github.xieliangcai.io/promethus%E7%9B%91%E6%8E%A7/</guid>
+  <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Prometheus snmp采集生成 snmp.yaml文件</title>
-    <link>https://www.ethanzhang.xyz/posts/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</link>
-    <pubDate>Fri, 24 Feb 2023 22:44:53 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.ethanzhang.xyz/posts/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</guid>
-    <description><![CDATA[背景 Prometheus 通过snmp-exporter采集网络设备， 但snmp-exporter是依赖snmp.yaml 件取采集对应应的oid，本此记录snmp.yaml 生成的过程 做法 安装generator # Debian 系统. sudo apt-get install unzip build-essential libsnmp-dev # Debian-based distros # Redhat 系统 sudo yum install gcc gcc-g++ make net-snmp net-snmp-utils net-snmp-libs net-snmp-devel # RHEL-based distros go get github.com/prometheus/snmp_exporter/generator cd ${GOPATH-$HOME/go}/src/github.com/prometheus/snmp_exporter/generator go build make mibs 写generator.yml 文件 modules: module_name: # 模块名 walk: # 下面是需要采集指标的oid - 1.3.6.1.2.1.2 # Same as &quot;interfaces&quot; - sysUpTime # Same as &quot;1.3.6.1.2.1.1.3&quot; - 1.3.6.1.2.1.31.1.1.1.6.40 # Instance of &quot;ifHCInOctets&quot; with index &quot;40&quot; ]]></description>
+  <title>Prometheus安装</title>
+  <link>https://github.xieliangcai.io/prometheus%E5%AE%89%E8%A3%85/</link>
+  <pubDate>Sat, 25 Feb 2023 07:57:09 &#43;0800</pubDate>
+  <author>xxxx</author>
+  <guid>https://github.xieliangcai.io/prometheus%E5%AE%89%E8%A3%85/</guid>
+  <description><![CDATA[Prometheus安装 下载解压 mkdir -p /opt/prometheus wget https://github.com/prometheus/prometheus/releases/download/v2.37.1/prometheus-2.37.1.linux-amd64.tar.gz tar xf prometheus-2.37.1.linux-amd64.tar.gz cp -far prometheus-2.37.1.linux-amd64/* /opt/prometheus/ 将服务挂使用systemd 托管 cat &lt;&lt;EOF &gt;/etc/systemd/system/prometheus.service [Unit] Description=&quot;prometheus&quot; Documentation=https://prometheus.io/ After=network.target [Service] Type=simple ExecStart=/opt/prometheus/prometheus --config.file=/opt/prometheus/prometheus.yml --storage.tsdb.path=/opt/prometheus/data --web.enable-lifecycle --enable-feature=remote-write-receiver --query.lookback-delta=2m --web.enable-admin-api Restart=on-failure SuccessExitStatus=0 LimitNOFILE=65536 StandardOutput=syslog StandardError=syslog SyslogIdentifier=prometheus [Install] WantedBy=multi-user.target EOF systemctl enable]]></description>
 </item>
 <item>
-    <title>Markdown Syntax Guide</title>
-    <link>https://www.ethanzhang.xyz/posts/markdown-syntax/</link>
-    <pubDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</pubDate>
-    <author>Hugo Authors</author>
-    <guid>https://www.ethanzhang.xyz/posts/markdown-syntax/</guid>
-    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
-</item>
-<item>
-    <title>Placeholder Text</title>
-    <link>https://www.ethanzhang.xyz/posts/placeholder-text/</link>
-    <pubDate>Sat, 09 Mar 2019 00:00:00 &#43;0000</pubDate>
-    <author>Hugo Authors</author>
-    <guid>https://www.ethanzhang.xyz/posts/placeholder-text/</guid>
-    <description><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>]]></description>
-</item>
-<item>
-    <title>Math Typesetting</title>
-    <link>https://www.ethanzhang.xyz/posts/math-typesetting/</link>
-    <pubDate>Fri, 08 Mar 2019 00:00:00 &#43;0000</pubDate>
-    <author>Hugo Authors</author>
-    <guid>https://www.ethanzhang.xyz/posts/math-typesetting/</guid>
-    <description><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>]]></description>
-</item>
-<item>
-    <title>Emoji Support</title>
-    <link>https://www.ethanzhang.xyz/posts/emoji-support/</link>
-    <pubDate>Tue, 05 Mar 2019 00:00:00 &#43;0000</pubDate>
-    <author>Hugo Authors</author>
-    <guid>https://www.ethanzhang.xyz/posts/emoji-support/</guid>
-    <description><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
+  <title>Prometheus snmp采集生成 snmp.yaml文件</title>
+  <link>https://github.xieliangcai.io/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</link>
+  <pubDate>Fri, 24 Feb 2023 22:44:53 &#43;0800</pubDate>
+  <author>xxxx</author>
+  <guid>https://github.xieliangcai.io/%E7%94%9F%E6%88%90snmp.yaml%E6%96%87%E4%BB%B6/</guid>
+  <description><![CDATA[背景 Prometheus 通过snmp-exporter采集网络设备， 但snmp-exporter是依赖snmp.yaml 件取采集对应应的oid，本此记录snm]]></description>
 </item>
 </channel>
 </rss>
