@@ -4,7 +4,15 @@
     <link>https://github.xieliangcai.io/posts/</link>
     <description>所有文章 | 我的网站</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1051504560@qq.com (xieliangcai)</managingEditor>
-      <webMaster>1051504560@qq.com (xieliangcai)</webMaster><lastBuildDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</lastBuildDate><atom:link href="https://github.xieliangcai.io/posts/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>1051504560@qq.com (xieliangcai)</webMaster><lastBuildDate>Mon, 27 Feb 2023 07:57:09 &#43;0800</lastBuildDate><atom:link href="https://github.xieliangcai.io/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>git 用了代理后还是下载慢</title>
+  <link>https://github.xieliangcai.io/git%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+  <pubDate>Mon, 27 Feb 2023 07:57:09 &#43;0800</pubDate>
+  <author>xieliangcai</author>
+  <guid>https://github.xieliangcai.io/git%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+  <description><![CDATA[git下载慢解决方法 如下图三步，开放本机的代理端口 然后配置git git config --global http.proxy 'http://127.0.0.1:9300' git config --list # 查看是否成功]]></description>
+</item>
+<item>
   <title>Promethus监控</title>
   <link>https://github.xieliangcai.io/promethus%E7%9B%91%E6%8E%A7/</link>
   <pubDate>Sat, 25 Feb 2023 10:04:59 &#43;0800</pubDate>
